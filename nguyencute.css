@@ -1,0 +1,93 @@
+/* Mobile */
+@media only screen and (max-width: 46.1875em) {
+/* Reset CSS */
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+#main {}
+
+.clear {
+    clear: both;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color:  #0099ff;
+    z-index: 1;
+   }
+
+#nav {
+    line-height: 60px;
+    display:inline-block;
+   }
+
+#nav > li {
+    display: block;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 40px;
+}
+
+#content {
+    margin-top: 90px;
+}
+
+#content .avatar img {
+    height:300px;
+    width:300px;
+    border-radius:50% ;
+    padding:20px;
+    margin-left: 60px;
+}
+
+#content .name {
+    margin-bottom:50px;
+}
+
+#header .mobile-menu-btn {
+    float:right;
+    padding: 0 24px;
+}
+
+#header .menu-icon {
+    color: #000;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+#gioithieu{
+    height:700px;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
